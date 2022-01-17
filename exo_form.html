@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice formulaire</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: poppins;
+        }
+    </style>
+    <link rel="stylesheet" href="exo_form.css">
+</head>
+
+<body>
+    <main>
+        <b>Add a new Card</b>
+        <hr>
+
+        <form action="http://olprog.ddns.net:5555/exo1" method="post">
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <fieldset>
+                            <legend>Card Number</legend>
+                            <input type="text" name="card_number" placeholder="0000 0000 0000 0000">
+                        </fieldset>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <fieldset>
+                            <legend>Expiry Date</legend>
+                            <input type="text" name="expiry_date" placeholder="MM / YY">
+                        </fieldset>
+                    </td>
+                    <td>
+                        <fieldset>
+                            <legend>CVC / CVV</legend>
+                            <input type="number" name="cvc" placeholder="...">
+                        </fieldset>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <fieldset>
+                            <legend>Cardholder name</legend>
+                            <input type="text" name="name" placeholder="Samuel Michaux">
+                        </fieldset>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input id="save" type="checkbox" id="save_card">
+                        <label for="Save"><b>Save Card</b></label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <button type="submit">Add Card</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </main>
+</body>
+
+</html>
