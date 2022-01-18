@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header .bloc1 {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-family:"9:41 Mon Jun 3",sans-serif;
+    font-size: 12px;
+}
+header .bloc1 div:nth-child(2){
+    display: flex;
+    align-items: center;
+}
+header .bloc2 {
+    display: flex;
+    justify-content: space-between;
+}
+header .bloc2 div:nth-child(1){
+    display: flex;
+    align-items: center;
+}
+header .bloc2 div:nth-child(2){
+    display: flex;
+    align-items: center;
+}
