@@ -1,0 +1,26 @@
+.a {background-color: rgb(180, 142, 142) ;}
+    .b{background-color: rgb(121, 20, 121);}
+    .c {background-color: rgb(26, 26, 88);}
+    .d {background-color: gray;}
+    .e {background-color: rgb(64, 104, 64);}
+    .f {background-color: black;}
+
+   ul {
+       display: flex;
+       flex-wrap: wrap;
+       width: 800px;
+       height: 100px;
+   }
+   
+   li {
+        text-align:start;
+        color: white;
+        width: 150px;
+        height: 30px ;
+        padding: 10px;
+        margin: 25px;
+        border: solid ;
+        font-size: 15px;
+        border-radius: 10px;
+       list-style: none;
+    }
